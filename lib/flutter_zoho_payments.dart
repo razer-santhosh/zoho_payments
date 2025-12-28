@@ -1,7 +1,6 @@
 library flutter_zoho_payments;
 
-import 'src/models/payment_request.dart';
-import 'src/models/payment_result.dart';
+import 'flutter_zoho_payments.dart';
 import 'src/zoho_payments_platform_interface.dart';
 import 'src/zoho_payments_method_channel.dart';
 
@@ -17,6 +16,11 @@ class ZohoPayments {
   factory ZohoPayments() => _instance;
 
   ZohoPayments._internal() {
+    ZohoPaymentsPlatform.instance = MethodChannelZohoPayments();
+  }
+
+  /// Registers the plugin with the Flutter engine
+  static void registerWith() {
     ZohoPaymentsPlatform.instance = MethodChannelZohoPayments();
   }
 

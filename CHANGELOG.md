@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.2.1 - 2024-12-28
+
+### Fixed
+- Added missing `registerWith()` static method for Dart-only plugin registration
+- Fixed duplicate class definition
+- Resolved plugin initialization issues
+
 ## 0.2.0 - 2024-12-28
 
 ### Added
