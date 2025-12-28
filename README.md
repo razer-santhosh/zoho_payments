@@ -28,7 +28,7 @@ Add `flutter_zoho_payments` to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  flutter_zoho_payments: ^0.2.1
+  flutter_zoho_payments: ^0.2.2
 ```
 
 ## Setup
@@ -45,7 +45,19 @@ android {
 }
 ```
 
-2. The plugin automatically includes the required permissions for internet access.
+2. Add Zoho's Maven repository to your `android/build.gradle` (project level):
+
+```gradle
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+        maven { url = uri("https://maven.zohodl.com") }  // Add this line
+    }
+}
+```
+
+3. The plugin automatically includes the required permissions for internet access.
 
 ### Backend Setup
 

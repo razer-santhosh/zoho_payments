@@ -1,6 +1,5 @@
 library flutter_zoho_payments;
 
-import 'flutter_zoho_payments.dart';
 import 'src/zoho_payments_platform_interface.dart';
 import 'src/zoho_payments_method_channel.dart';
 

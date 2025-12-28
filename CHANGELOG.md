@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.2.2 - 2024-12-28
+
+### Fixed
+- Added Zoho Maven repository (https://maven.zohodl.com) to plugin build configuration
+- Resolved SDK dependency resolution issues
+- Updated documentation with repository setup instructions
+
 ## 0.2.1 - 2024-12-28
 
 ### Fixed
