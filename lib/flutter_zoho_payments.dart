@@ -18,6 +18,11 @@ class ZohoPayments {
     ZohoPaymentsPlatform.instance = MethodChannelZohoPayments();
   }
 
+  /// Registers the plugin with the Flutter engine
+  static void registerWith() {
+    ZohoPaymentsPlatform.instance = MethodChannelZohoPayments();
+  }
+
   /// Initialize the Zoho Payments SDK with your API credentials
   ///
   /// [apiKey] - Your Zoho Payments API key
