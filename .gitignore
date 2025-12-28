@@ -49,3 +49,8 @@ example/build/
 example/.dart_tool/
 example/.packages
 example/.pub/
+
+# Package files
+.DS_Store
+.idea
+.vscode

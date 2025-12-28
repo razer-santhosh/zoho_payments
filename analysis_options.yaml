@@ -1,0 +1,12 @@
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    - always_declare_return_types
+    - prefer_single_quotes
+    - require_trailing_commas
+    - sort_child_properties_last
+    - prefer_const_constructors
+    - prefer_final_fields
+    - use_key_in_widget_constructors
+    - avoid_print
