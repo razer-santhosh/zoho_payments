@@ -133,6 +133,15 @@ try {
 }
 ```
 
+## Screenshots & Demo
+
+### Demo Video
+
+https://github.com/user-attachments/assets/1000259892
+
+### Screenshots
+<img src="assets/examples/1000259880.jpg" width="250" alt="Payment Screen" /> <img src="assets/examples/1000259881.jpg" width="250" alt="Payment Methods" /> <img src="assets/examples/1000259891.jpg" width="250" alt="Payment Success" />
+
 ## Complete Example
 
 ```dart
