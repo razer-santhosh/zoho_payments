@@ -2,10 +2,10 @@
 enum PaymentStatus {
   /// Payment completed successfully
   success,
-  
+
   /// Payment failed
   failure,
-  
+
   /// Payment cancelled by user
   cancelled,
 }
