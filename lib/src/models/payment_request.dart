@@ -61,10 +61,10 @@ class PaymentRequest {
 enum PaymentMethod {
   /// Card payment (Credit/Debit)
   card,
-  
+
   /// Internet banking
   netBanking,
-  
+
   /// UPI payment
   upi,
 }
